@@ -1,0 +1,24 @@
+<openerp>
+<data noupdate="1">       
+        <record id="tts" model="res.partner">
+            <field name="name">Tanitech Solutions</field>
+            <field name="is_company">1</field>
+            <field name="street">04, Hedi Nouira</field>
+            <field name="zip">2001 </field>
+            <field name="city">Tunis</field>
+            <field name="country_id" model="res.country" search="[('code','=','tn')]"/>
+            <field name="phone">+216 25 70 20 25</field>
+            <field name="fax"></field>
+            <field name="website">http://www.tanitechsolutions.com</field>
+        </record>
+    
+        <record id="res_partner_address_1" model="res.partner">
+            <field name="name">Ahmed Mnasri</field>
+            <field name="parent_id" ref="tts"/>
+            <field name="use_parent_address" eval="1"/>
+            <field name="email">info@tanitechsolutions.com</field>
+            <field name="active">1</field>
+            <field name="type">default</field>
+        </record>
+    </data>
+</openerp>
