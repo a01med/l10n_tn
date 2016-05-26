@@ -20,11 +20,11 @@
 
 
 {
-    'name': 'Tunisie - Accounting',
+    'name': 'Tunisia - Accounting',
     'version': '1.0',
     'category': 'Localization/Account Charts',
     'description': """
-This is the OpenERP localisation necessary to run OpenERP accounting for Tunisia with:
+This is the Odoo localisation necessary to run Odoo accounting for Tunisia:
 =================================================================================================
     """,
     'author': 'Ahmed Mnasri',
